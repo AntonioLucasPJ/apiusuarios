@@ -1,5 +1,5 @@
 import express from 'express'
-import { prisma } from './node_modules/lib/prisma.js'
+import { prisma } from './lib/prisma.js'
 import cors from 'cors'
 const app = express()
 app.use(express.json())
